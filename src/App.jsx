@@ -3,7 +3,7 @@ function App(){
     <div class="bg-white  justify-self-center w-5/8 p-10 pl-20 mt-20 mb-20 rounded shadow-2xl mx-auto border ">
       <h1 class="text-4xl font-bold text-gray-800 mb-2">Dijul M</h1>
       <h2 class="text-xl text-gray-800 mb-2">Student | Developer</h2>
-      <h3 class="text-l text-gray-800 mb-2">+91 6282117500 | dijul897@gmail.com </h3>
+      <h3 class="text-l text-gray-800 mb-2">+91 62******** | dijul897@gmail.com </h3>
       <div class="flex gap-10">
       
       <span class="[&>svg]:h-5 [&>svg]:w-5 flex gap-1">
