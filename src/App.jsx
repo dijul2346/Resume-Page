@@ -1,6 +1,12 @@
 function App(){
   return(
-    <div class="bg-white  justify-self-center w-5/8 p-10 pl-20 mt-20 mb-20 rounded shadow-2xl mx-auto border ">
+    <body class="bg-gradient-to-l from-gray-800 to-gray-900">
+    <div class="bg-gradient-to-r from-slate-700 to-gray-700 justify-self-center w-5/8 p-10 pl-20 mt-20 mb-20 rounded shadow-2xl mx-auto  ">
+    <div class="flex gap-20 max-w-3xl mx-auto p-6 bg-gradient-to-r from-orange-100 to-gray-200 rounded-2xl shadow-md">
+      <div>
+        <img src="src\assets\dijul.jpg" alt="" class="w-32 h-32 rounded-full border-4 border-blue-500 shadow-lg " />
+      </div>
+    <div>
       <h1 class="text-4xl font-bold text-gray-800 mb-2">Dijul M</h1>
       <h2 class="text-xl text-gray-800 mb-2">Student | Developer</h2>
       <h3 class="text-l text-gray-800 mb-2">+91 62******** | dijul897@gmail.com </h3>
@@ -20,78 +26,79 @@ function App(){
       <a href="https://github.com/dijul2346"> dijul2346</a>
       </span>
       </div>
-
+    </div>
+    </div>
       
-      
+      <div class="max-w-3xl mx-auto p-6 bg-gradient-to-r from-gray-300 to-amber-100 rounded-2xl shadow-md mt-10 mb-10">
       <h2 class="text-xl text-gray-800 mb-2 pt-5">Summary</h2>
-
       <div class="w-4/5"><p class="text-xs">Motivated and solution-oriented B.Tech Computer Science student at MITS with a strong foundation in full-stack development, machine learning, and cloud technologies. Experienced in building socially relevant tech solutions, including real-time animal detection systems and fall detection for elderly care. Skilled in React, Flutter, Firebase, Python, and SQL. Certified in Google Cloud and Data Science, with hands-on project experience in both academic and real-world scenarios.</p></div>
+      </div>
       
-      <div className="max-w-3xl  bg-white rounded-2xl">
-      <h2 class="text-xl text-gray-800 mb-2 pt-5">Skills</h2>
+      <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-slate-200 via-amber-100 to-slate-200 rounded-2xl shadow-md mt-10 mb-10">
+      <h2 class="text-xl text-gray-800 mb-6 text-center font-bold">Skills</h2>
+      
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm text-gray-700">
+        <div class="bg-gradient-to-r from-lime-200 to-lime-300 p-5 rounded-2xl shadow-md">
+          <h3 className="font-semibold text-gray-900">Languages</h3>
+          <ul className="list-disc list-inside">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>SQL</li>
+          </ul>
+        </div>
 
-  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm text-gray-700">
-    <div>
-      <h3 className="font-semibold text-gray-900">Languages</h3>
-      <ul className="list-disc list-inside">
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>C</li>
-        <li>SQL</li>
-      </ul>
-    </div>
+        <div class="bg-gradient-to-r from-blue-200 to-blue-300 p-5 rounded-2xl shadow-md">
+          <h3 className="font-semibold text-gray-900">Web & App</h3>
+          <ul className="list-disc list-inside">
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Flutter</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </div>
 
-    <div>
-      <h3 className="font-semibold text-gray-900">Web & App</h3>
-      <ul className="list-disc list-inside">
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>Flutter</li>
-        <li>HTML/CSS</li>
-      </ul>
-    </div>
+        <div class="bg-gradient-to-r from-purple-200 to-purple-300 p-5 rounded-2xl shadow-md">
+          <h3 className="font-semibold text-gray-900">Backend & DB</h3>
+          <ul className="list-disc list-inside">
+            <li>MongoDB</li>
+            <li>Firebase</li>
+            <li>MySQL</li>
+            <li>Prisma ORM</li>
+          </ul>
+        </div>
 
-    <div>
-      <h3 className="font-semibold text-gray-900">Backend & DB</h3>
-      <ul className="list-disc list-inside">
-        <li>MongoDB</li>
-        <li>Firebase</li>
-        <li>MySQL</li>
-        <li>Prisma ORM</li>
-      </ul>
-    </div>
+        <div class="bg-gradient-to-r from-pink-200 to-pink-300 p-5 rounded-2xl shadow-md">
+          <h3 className="font-semibold text-gray-900">Tools & Platforms</h3>
+          <ul className="list-disc list-inside">
+            <li>Git & GitHub</li>
+            <li>Postman</li>
+            <li>GCP</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
 
-    <div>
-      <h3 className="font-semibold text-gray-900">Tools & Platforms</h3>
-      <ul className="list-disc list-inside">
-        <li>Git & GitHub</li>
-        <li>Postman</li>
-        <li>GCP</li>
-        <li>VS Code</li>
-      </ul>
-    </div>
+        <div class="bg-gradient-to-r from-orange-200 to-orange-300 p-5 rounded-2xl shadow-md">
+          <h3 className="font-semibold text-gray-900">ML & AI</h3>
+          <ul className="list-disc list-inside">
+            <li>YOLOv8</li>
+            <li>OpenCV</li>
+            <li>Power BI</li>
+          </ul>
+        </div>
 
-    <div>
-      <h3 className="font-semibold text-gray-900">ML & AI</h3>
-      <ul className="list-disc list-inside">
-        <li>YOLOv8</li>
-        <li>OpenCV</li>
-        <li>Power BI</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3 className="font-semibold text-gray-900">Soft Skills</h3>
-        <ul className="list-disc list-inside">
-          <li>Teamwork</li>
-          <li>Problem-solving</li>
-          <li>Communication</li>
-          <li>Leadership</li>
-        </ul>
+        <div class="bg-gradient-to-r from-teal-200 to-teal-300 p-5 rounded-2xl shadow-md">
+          <h3 className="font-semibold text-gray-900">Soft Skills</h3>
+          <ul className="list-disc list-inside">
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+          </ul>
+        </div>
       </div>
-      </div>
     </div>
-    <div className="max-w-3xl  bg-white  ">
+    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-amber-50 to-amber-100 rounded-2xl shadow-md mt-10 mb-10">
       <h2 className="text-xl text-gray-800 mb-2 pt-5">Education</h2>
       <div className="text-sm text-gray-700">
         <h3 className="font-semibold text-gray-900">B.Tech in Computer Science and Engineering</h3>
@@ -108,7 +115,7 @@ function App(){
         </ul>
       </div>
     </div>
-    <div className="max-w-3xl  bg-white  ">
+    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-l from-amber-50 to-amber-100 rounded-2xl shadow-md mt-10 mb-10 ">
       <h2 className="text-xl text-gray-800 mb-2 pt-5">Projects</h2>
       <div className="text-sm text-gray-700">
         <h3 className="font-semibold text-gray-900">Wild-Eye</h3>
@@ -132,13 +139,8 @@ function App(){
         </ul>
       </div>
     </div>
-    
-
-
-
-      
-
     </div>
+  </body>  
   )
 }
 
