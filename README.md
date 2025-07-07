@@ -1,12 +1,59 @@
-# React + Vite
+# Portfolio – Dijul M
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website for Dijul M, built with React and Tailwind CSS. Showcases skills, education, projects, and contact information in a clean, professional layout.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design using Tailwind CSS
+- Sections for summary, skills, education, and projects
+- SVG icons and modern UI
+- Built with React and Vite for fast development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+![Screenshot](public/vite.svg)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v16 or above recommended)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/portfolio-dijulm.git
+   cd portfolio-dijulm/tailwind
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## Project Structure
+```
+tailwind/
+  ├── public/
+  ├── src/
+  │   ├── App.jsx
+  │   ├── main.jsx
+  │   └── ...
+  ├── index.html
+  ├── package.json
+  ├── vite.config.js
+  └── ...
+```
+
+## Customization
+- Update your information in `src/App.jsx`.
+- Modify styles using Tailwind utility classes.
+
+## License
+This project is licensed under the MIT License.
