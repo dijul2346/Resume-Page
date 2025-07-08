@@ -31,7 +31,7 @@ function App(){
       
       <div class="max-w-3xl mx-auto p-6 bg-gradient-to-r from-gray-300 to-amber-100 rounded-2xl shadow-md mt-10 mb-10">
       <h2 class="text-xl text-gray-800 mb-2 pt-5">Summary</h2>
-      <div class="w-4/5"><p class="text-xs">Motivated and solution-oriented B.Tech Computer Science student at MITS with a strong foundation in full-stack development, machine learning, and cloud technologies. Experienced in building socially relevant tech solutions, including real-time animal detection systems and fall detection for elderly care. Skilled in React, Flutter, Firebase, Python, and SQL. Certified in Google Cloud and Data Science, with hands-on project experience in both academic and real-world scenarios.</p></div>
+      <div class=""><p class="text-s">Motivated and solution-oriented B.Tech Computer Science student at MITS with a strong foundation in full-stack development, machine learning, and cloud technologies. Experienced in building socially relevant tech solutions, including real-time animal detection systems and fall detection for elderly care. Skilled in React, Flutter, Firebase, Python, and SQL. Certified in Google Cloud and Data Science, with hands-on project experience in both academic and real-world scenarios.</p></div>
       </div>
       
       <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-slate-200 via-amber-100 to-slate-200 rounded-2xl shadow-md mt-10 mb-10">
@@ -100,6 +100,7 @@ function App(){
     </div>
     <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-amber-50 to-amber-100 rounded-2xl shadow-md mt-10 mb-10">
       <h2 className="text-xl text-gray-800 mb-2 pt-5">Education</h2>
+      <div class="bg-gradient-to-l from-amber-200 to-amber-100 rounded-2xl mb-3 border p-3">
       <div className="text-sm text-gray-700">
         <h3 className="font-semibold text-gray-900">B.Tech in Computer Science and Engineering</h3>
         <ul className="list-disc list-inside">
@@ -115,9 +116,11 @@ function App(){
         </ul>
       </div>
     </div>
-    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-l from-amber-50 to-amber-100 rounded-2xl shadow-md mt-10 mb-10 ">
+    </div>
+    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-l from-amber-100 to-amber-50 rounded-2xl shadow-md mt-10 mb-10 ">
       <h2 className="text-xl text-gray-800 mb-2 pt-5">Projects</h2>
       <div className="text-sm text-gray-700">
+        <div class="bg-gradient-to-l from-amber-100 to-amber-200 rounded-2xl mb-3 border p-3">
         <h3 className="font-semibold text-gray-900">Wild-Eye</h3>
         <ul className="list-disc list-inside">
           <li>YOLOv8 (object detection) | Python (model implementation and video processing) <br /> Flutter
@@ -127,12 +130,16 @@ function App(){
  model for efficient and accurate animal detection, this app aims to bridge the gap between technology
  and wildlife conservation. By delivering instant notifications, our solution ensures user safety while
  promoting peaceful coexistence with nature</li>
-          
-        </ul>
+        </ul>bg-gradient-to-l from-amber-100 to-amber-200 rounded-2xl mb-3 border p-3
+        </div>
+        <div class="bg-gradient-to-l from-amber-100 to-amber-200 rounded-2xl mb-3 border p-3">
         <h3 className="font-semibold text-gray-900 pt-5"> Disaster Rescue System App</h3>
         <ul className="list-disc list-inside">
           <li>Designed and developed a comprehensive disaster rescue system application leveraging SQL for robust data management. The app streamlines communication and coordination among rescue teams, victims, and authorities during emergencies. Key features include real-time location tracking, automated SOS alerts, resource allocation, and a centralized dashboard for monitoring ongoing rescue operations. The system ensures efficient information flow, quick response times, and improved safety for affected individuals by integrating user-friendly interfaces and secure data handling.</li>
         </ul>
+        </div>
+        </div>
+        <div class="bg-gradient-to-l from-amber-100 to-amber-200 rounded-2xl mb-3 border p-3">
         <h3 className="font-semibold text-gray-900 pt-5">Blog-Space</h3>
         <ul className="list-disc list-inside">
           <li>Developed "Blog Space," a full-stack blogging platform using Node.js, Express, MongoDB, and React. Implemented secure user authentication with JWT, RESTful APIs, and input validation with Zod. Designed for scalable, modern web application development with environment-based configuration and robust backend architecture.</li>
