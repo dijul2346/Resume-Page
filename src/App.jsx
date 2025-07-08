@@ -1,7 +1,7 @@
 function App(){
   return(
     <body class="bg-gradient-to-l from-gray-800 to-gray-900">
-    <div class="bg-gradient-to-r from-slate-700 to-gray-700 justify-self-center w-5/8 p-10 pl-20 mt-20 mb-20 rounded shadow-2xl mx-auto  ">
+    <div class="bg-gradient-to-r from-slate-700 to-gray-700 justify-self-center w-5/8 p-10 pl-20 pt-20 mt-20 mb-20 rounded-2xl shadow-2xl mx-auto  ">
     <div class="flex gap-20 max-w-3xl mx-auto p-6 bg-gradient-to-r from-orange-100 to-gray-200 rounded-2xl shadow-md">
       <div>
         <img src="src\assets\dijul.jpg" alt="" class="w-32 h-32 rounded-full border-4 border-blue-500 shadow-lg " />
@@ -98,9 +98,9 @@ function App(){
         </div>
       </div>
     </div>
-    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-teal-50 to-slate-300 rounded-2xl shadow-md mt-10 mb-10">
+    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-cyan-200 to-yellow-50 rounded-2xl shadow-md mt-10 mb-10">
       <h2 className="text-xl text-gray-800 mb-2 pt-5">Education</h2>
-      <div class="bg-gradient-to-r from-slate-300 to-slate-150 rounded-2xl mb-3 border p-3">
+      <div class="bg-gradient-to-r from-blue-200 to-cyan-200 rounded-2xl mb-3 border p-3">
       <div className="text-sm text-gray-700">
         <h3 className="font-semibold text-gray-900">B.Tech in Computer Science and Engineering</h3>
         <ul className="list-disc list-inside">
