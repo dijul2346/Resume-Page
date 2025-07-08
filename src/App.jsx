@@ -98,9 +98,9 @@ function App(){
         </div>
       </div>
     </div>
-    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-amber-50 to-amber-100 rounded-2xl shadow-md mt-10 mb-10">
+    <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r from-teal-50 to-slate-300 rounded-2xl shadow-md mt-10 mb-10">
       <h2 className="text-xl text-gray-800 mb-2 pt-5">Education</h2>
-      <div class="bg-gradient-to-l from-amber-200 to-amber-100 rounded-2xl mb-3 border p-3">
+      <div class="bg-gradient-to-r from-slate-300 to-slate-150 rounded-2xl mb-3 border p-3">
       <div className="text-sm text-gray-700">
         <h3 className="font-semibold text-gray-900">B.Tech in Computer Science and Engineering</h3>
         <ul className="list-disc list-inside">
@@ -132,7 +132,7 @@ function App(){
  promoting peaceful coexistence with nature</li>
         </ul>bg-gradient-to-l from-amber-100 to-amber-200 rounded-2xl mb-3 border p-3
         </div>
-        <div class="bg-gradient-to-l from-amber-100 to-amber-200 rounded-2xl mb-3 border p-3">
+        <div class="bg-gradient-to-l from-amber-200 to-amber-100 rounded-2xl mb-3 border p-3">
         <h3 className="font-semibold text-gray-900 pt-5"> Disaster Rescue System App</h3>
         <ul className="list-disc list-inside">
           <li>Designed and developed a comprehensive disaster rescue system application leveraging SQL for robust data management. The app streamlines communication and coordination among rescue teams, victims, and authorities during emergencies. Key features include real-time location tracking, automated SOS alerts, resource allocation, and a centralized dashboard for monitoring ongoing rescue operations. The system ensures efficient information flow, quick response times, and improved safety for affected individuals by integrating user-friendly interfaces and secure data handling.</li>
